@@ -1,5 +1,3 @@
 package application.record;
 
-public class ModuloDTO {
-    
-}
+public record ModuloDTO(Long id, String titulo, String descricao, Long cursoId) {}

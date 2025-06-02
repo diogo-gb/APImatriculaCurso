@@ -1,5 +1,3 @@
 package application.record;
 
-public class CursoDTO {
-    
-}
+public record CursoDTO(Long id, String nome, String descricao, int cargaHoraria) {}
